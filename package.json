@@ -1,0 +1,27 @@
+{
+  "name": "radar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "node script/build.js",
+    "watch": "node script/build.js --watch=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "execa": "^5.0.0",
+    "minimist": "^1.2.6",
+    "rollup": "^2.75.6",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-sizes": "^1.0.4",
+    "rollup-plugin-typescript2": "^0.32.1"
+  }
+}

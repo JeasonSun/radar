@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNEXT", 
+    "module": "ESNEXT",
+    "sourceMap": true,
+    "strict": true, 
+    "esModuleInterop": true,
+    "skipLibCheck": true, 
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@radar/*": [
+        "packages/*/src"
+      ]
+    }
+  }
+}
